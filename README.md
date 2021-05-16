@@ -1,12 +1,34 @@
 # Invictus wordCount React App
+ 
+ # This React js appliaction has following features:-
+    accepts a number input N with a Submit button
+    On entering a value and pressing submit, fetch the contents of https://raw.githubusercontent.com/invictustech/test/main/README.md
+    Find the top N most frequently occurring words in this file 
+    Display the top N words and their frequency of occurrence in the frontend, in a tabular format
+    
+  # list of all test cases run along with test data and screenshots
+  Value of n = 5
+  ![image](https://user-images.githubusercontent.com/62592645/118410427-01c1af00-b6ad-11eb-87bc-956d7b2a2345.png)
+  
+  Value of n = 1
+  ![image](https://user-images.githubusercontent.com/62592645/118410479-3c2b4c00-b6ad-11eb-9f0d-405783fceda2.png)
+  
+  Value of n = 10
+  ![image](https://user-images.githubusercontent.com/62592645/118410513-667d0980-b6ad-11eb-8966-a36ecebac87f.png)
+  
+  
+  # libary and plugins
+    render() method that takes input data and returns what to display. 
+    taking input data (accessed via this.props), a component can maintain internal state data (accessed via this.state).
+    react : React core library
+    react-dom: This package serves as the entry point of the DOM-related rendering paths.
+    react-router-dom: Dom binding for react-router
 
- .
 
-## Available Scripts
+ ## Available Scripts
 
  
-
-### `npm start`
+ ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -28,16 +50,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
  
 
